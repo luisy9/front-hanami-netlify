@@ -1,0 +1,91 @@
+.swiper-button-next {
+  color: black;
+  width: 10px;
+}
+
+
+.custom-next {
+  width: 43px;
+  height: 43px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.custom-prev {
+  width: 43px;
+  height: 43px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* .custom-next {
+  position: absolute;
+  right: 0;
+  top: 65%;
+  transform: translateY(-60%);
+  width: 43px;
+  height: 43px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.custom-prev {
+  position: absolute;
+  left: 0;
+  top: 65%;
+  transform: translateY(-60%);
+  width: 43px;
+  height: 43px;
+  color: red;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+} */
+
+.swiper-slide {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .swiper {
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .swiper {
+    overflow: visible;
+    height: 210px;
+    width: 100%;
+    margin-left: 0;
+    /* margin-right: auto; */
+  }
+  .swiper-cards .swiper-slide {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+  }
+}
